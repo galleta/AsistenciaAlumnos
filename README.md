@@ -2,11 +2,16 @@
 
 ![Java](https://img.shields.io/badge/Lenguaje-Java-blue?logo=java)
 ![XML](https://img.shields.io/badge/Interfaz-XML-orange?logo=xml)
+![API REST](https://img.shields.io/badge/API-RESTful-0d1117?logo=api&logoColor=white)
+![Formato JSON](https://img.shields.io/badge/Intercambio-JSON-blue?logo=json)
+![HTTP](https://img.shields.io/badge/Protocolo-HTTP%2FHTTPS-critical?logo=http)
 ![Version](https://img.shields.io/badge/version-4.10-brightgreen)
 
 Este repositorio contiene una aplicación móvil desarrollada en *Android Studio*, destinada a la gestión de la asistencia del alumnado en ciclos formativos de formación profesional.
 
 Creé esta aplicación mientras trabajaba como docente en un centro privado de FP, con el objetivo de facilitar el control diario de la asistencia por parte del profesorado.
+
+La aplicación se conecta con la parte back-end, donde está almacenada la base de datos, mediante una API REST programada en PHP 5 y que utiliza JSON para el intercambio de datos.
 
 ## Características principales de la APP
 
