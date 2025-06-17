@@ -1,0 +1,306 @@
+<resources>
+    <string name="app_name">APPsistencia</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="texto_email_no_valido">Error, email no válido.</string>
+
+    <!-- Textos de la actividad de login -->
+    <string name="texto_contrasena_cambiada">Se ha cambiado la contraseña, vuelve a entrar.</string>
+    <string name="title_activity_login">Login</string>
+    <string name="texto_acceder">Acceder</string>
+    <string name="texto_nocerrarsesion">No cerrar sesión</string>
+    <string name="texto_password">Contraseña</string>
+    <string name="texto_usuario">Usuario</string>
+    <string name="texto_login">Login</string>
+    <string name="texto_error_login">Error, datos incorrectos.</string>
+    <string name="texto_error_servidor">Error obteniendo los datos del servidor, por favor inténtalo más tarde.</string>
+
+    <!-- Textos de la pantalla inicial -->
+    <string name="title_activity_main">Control de asistencia</string>
+    <string name="texto_anotar_asistencias">Pulsa prolongadamente sobre un día para anotar asistencias.</string>
+    <string name="texto_el_dia">El día</string>
+    <string name="texto_has_trabajado">has trabajado durante</string>
+    <string name="texto_horas">horas y</string>
+    <string name="texto_minutosMA">minutos.</string>
+
+    <!-- Menu de la app -->
+    <string name="titulo_alumnos">Alumnos</string>
+    <string name="titulo_profesores">Profesores</string>
+    <string name="titulo_asistencia">Asistencia</string>
+    <string name="titulo_informacion">Información</string>
+    <string name="menu_sobre">Sobre la app</string>
+    <string name="menu_modificar_asistencia">Modificar/Borrar asistencia</string>
+    <string name="menu_modificar_alumno">Modificar alumno</string>
+    <string name="menu_agregar_alumno">Agregar alumno</string>
+    <string name="menu_agregar_profesor">Agregar profesor</string>
+    <string name="menu_consultar_eliminar_alumnos">Consultar/Eliminar alumnos</string>
+    <string name="menu_consultar_alumnos">Consultar alumnos</string>
+    <string name="menu_consultar_eliminar_profesores">Consultar/Eliminar profesores</string>
+    <string name="menu_consultar_profesores">Consultar profesores</string>
+    <string name="menu_anotar_asistencia">Anotar asistencia</string>
+    <string name="menu_consultar_asistencia">Consultar asistencia</string>
+    <string name="menu_configuracion">Configuración</string>
+    <string name="menu_borrar_todas_asistencias">Borrar todas las asistencias</string>
+    <string name="menu_mis_datos_profesor">Mis datos</string>
+    <string name="menu_consultar_faltas">Consultar faltas alumno</string>
+    <string name="title_activity_apuntar_horas">ApuntarHoras</string>
+
+    <!-- Textos de la actividad de agregar un alumno -->
+    <string name="title_activity_agregar_alumno">Agregar alumno</string>
+    <string name="smr">SMR</string>
+    <string name="dam">DAM</string>
+    <string name="primero">PRIMERO</string>
+    <string name="segundo">SEGUNDO</string>
+    <string name="texto_matricular">Matricular</string>
+    <string name="texto_aceptar">Aceptar</string>
+    <string name="texto_limpipar">Limpiar</string>
+    <string name="texto_datosalumno">Datos del alumno</string>
+    <string name="texto_matriculacion">Matriculación del alumno</string>
+    <string name="texto_curso">Curso:</string>
+    <string name="texto_ciclo">Ciclo Formativo:</string>
+    <string name="texto_nombre">Nombre:</string>
+    <string name="texto_apellidos">Apellidos:</string>
+    <string name="texto_matricular_asignatura">Matricular asignatura</string>
+
+    <!-- Textos de la actividad de agregar un alumno -->
+    <string name="title_activity_consultar_alumnos">Consultar alumnos</string>
+
+    <!-- Textos de la actividad de anotar asistencias -->
+    <string name="title_activity_anotar_asistencia">Anotar asistencias</string>
+    <string name="texto_cantidad_alumnos">Alumnos matriculados:</string>
+
+    <string name="enero">Enero</string>
+    <string name="febrero">Febrero</string>
+    <string name="marzo">Marzo</string>
+    <string name="abril">Abril</string>
+    <string name="mayo">Mayo</string>
+    <string name="junio">Junio</string>
+    <string name="julio">Julio</string>
+    <string name="agosto">Agosto</string>
+    <string name="septiembre">Septiembre</string>
+    <string name="octubre">Octubre</string>
+    <string name="noviembre">Noviembre</string>
+    <string name="diciembre">Diciembre</string>
+
+    <string name="error_internet">No ha conexión a internet</string>
+
+    <string name="texto_asignatura">Asignatura:</string>
+    <string name="texto_anotarasistencias">Anotar asistencias</string>
+    <string name="texto_resetearasistencias">Resetear asistencias</string>
+    <string name="texto_calcular">Calcular asistencias</string>
+    <string name="texto_alumno">Alumno:</string>
+    <string name="texto_fecha">Fecha:</string>
+
+    <!-- Textos de la actividad de anotar asistencia -->
+    <string name="texto_asistencia_anotada_ok">Asistencias anotadas con éxito.</string>
+    <string name="texto_asistencia_anotada_nook">Se ha producido un error anotando las asistencias.</string>
+
+    <!-- Textos de la actividad de consultar asistencias -->
+    <string name="title_activity_consultar_asistencia">Consultar asistencia</string>
+    <string name="texto_formula">Fórmula para calcular la asistencia:\n</string>
+    <string name="texto_ASISTENCIA">Asistencia</string>
+    <string name="texto_FALTA">Falta</string>
+    <string name="texto_FALTA_JUSTIFICADA">Falta justificada</string>
+    <string name="texto_RETRASO">Retraso</string>
+    <string name="texto_maximo">Nota máxima:</string>
+    <string name="texto_punto">punto.</string>
+    <string name="texto_puntos">puntos.</string>
+    <string name="texto_no_asistencias">No hay asistencias anotadas</string>
+    <string name="texto_no_asistencias_dia">No hay asistencias anotadas a fecha</string>
+    <string name="texto_total_asistencias">Total asistencias:</string>
+    <string name="texto_total_faltas">Total faltas:</string>
+    <string name="texto_total_faltas_justificadas">Total faltas justificadas:</string>
+    <string name="texto_total_retrasos">Total retrasos:</string>
+    <string name="texto_nota_total_asistencia">Total nota asistencia:</string>
+    <string name="texto_total_horas_asignatura">Total horas asignatura:</string>
+    <string name="texto_porcentaje_asistido">Porcentaje asistido:</string>
+    <string name="texto_no_asistencia_minima">0 si no supera la asistencia mínima del 85% de las horas totales.</string>
+
+    <string name="texto_modificar">Modificar</string>
+
+    <!-- Textos de la actividad de modificar un alumno -->
+    <string name="title_activity_modificar_alumno">Modificar datos alumno</string>
+    <string name="texto_datos_ciclo_curso">Ciclo y curso del alumno</string>
+    <string name="texto_modificar_asignaturas_alumno">Modificar asignaturas</string>
+    <string name="texto_agregar">Agregar</string>
+
+    <!-- Título de la pantalla de configuración -->
+    <string name="title_activity_preferencias">Configuración</string>
+    <string name="texto_categoria_pesos">Evaluación de la asistencia a clase</string>
+    <string name="texto_peso_nota">Puntos de la asistencia (sobre 10)</string>
+    <string name="texto_resumen_peso_nota">Nota máxima de la asistencia para la nota final.</string>
+    <string name="texto_peso_asistencia">Peso de una asistencia (sobre 1)</string>
+    <string name="texto_resumen_peso_asistencia">% sobre 1 del valor de una asistencia.</string>
+    <string name="texto_peso_falta">Peso de una falta (sobre 1)</string>
+    <string name="texto_resumen_peso_falta">% sobre 1 del valor de una falta.</string>
+    <string name="texto_peso_falta_justificada">Peso de una falta justificada (sobre 1)</string>
+    <string name="texto_resumen_peso_falta_justificada">% sobre 1 del valor de una falta justificada.</string>
+    <string name="texto_peso_retraso">Peso de un retraso (sobre 1)</string>
+    <string name="texto_resumen_peso_retraso">% sobre 1 del valor de un retraso.</string>
+
+    <!-- Textos de la actividad de modificar asistencia -->
+    <string name="title_activity_modificar_asistencia">Modificar asistencia</string>
+    <string name="texto_boton_consultar_asistencias">Consultar asistencias</string>
+
+    <!-- Textos de la pantalla Acerca de -->
+    <string name="title_activity_acerca_de">Sobre la app</string>
+    <string name="texto_autor_acercade">Autor: %1$s</string>
+    <string name="texto_aplicacion">Aplicación para controlar la asistencia del alumnado.</string>
+    <string name="texto_version">Versión de la app: </string>
+    <string name="texto_contacta">Contacta conmigo</string>
+    <string name="texto_mandame_email">Envíame un email</string>
+    <string name="texto_visita_playstore">Mira mis otras apps</string>
+    <string name="texto_visita_github">Visita mi GitHub</string>
+    <string name="texto_visita_linkedin">Visita mi LinkedIn</string>
+    <string name="copy_right" translatable="false">Copyright Francis © %1$d</string>
+
+    <!-- Textos del diálogo de eliminar alumnos -->
+    <string name="titulo_eliminar_alumno">Eliminar alumno</string>
+    <string name="texto_mensaje_eliminar_alumno">Se eliminarán todas las asistencias del alumno</string>
+    <string name="texto_cancelar">Cancelar</string>
+    <string name="texto_alumno_borrado_ok">Alumno borrado correctamente</string>
+    <string name="texto_alumno_borrado_nook">Error borrando al alumno</string>
+
+    <!-- Textos del diálogo de eliminar todas las asistencias -->
+    <string name="titulo_eliminar_asistencias">Eliminar asistencias</string>
+    <string name="texto_mensaje_eliminar_asistencias">Se eliminarán todas las asistencias de todos los alumnos</string>
+    <string name="texto_asistencias_borrado_ok">Asistencias borradas correctamente</string>
+    <string name="texto_asistencias_borrado_nook">Error borrando las asistencias</string>
+
+    <!-- Arrays -->
+    <string-array name="asignaturas_1SMR">
+        <item>AO</item>
+        <item>FOL</item>
+        <item>MME</item>
+        <item>RL</item>
+        <item>SOM</item>
+    </string-array>
+
+    <string-array name="asignaturas_2SMR">
+        <item>AW</item>
+        <item>EIE</item>
+        <item>LC</item>
+        <item>SI</item>
+        <item>SOR</item>
+        <item>SER</item>
+    </string-array>
+
+    <string-array name="asignaturas_1DAM">
+        <item>BD</item>
+        <item>ED</item>
+        <item>FOL</item>
+        <item>LM</item>
+        <item>PROG</item>
+        <item>SI</item>
+    </string-array>
+
+    <string-array name="asignaturas_2DAM">
+        <item>AD</item>
+        <item>DI</item>
+        <item>EIE</item>
+        <item>LC</item>
+        <item>PMDM</item>
+        <item>PROYECTO</item>
+        <item>PSP</item>
+        <item>SGE</item>
+    </string-array>
+
+    <string-array name="ciclos">
+        <item>SMR</item>
+        <item>DAM</item>
+    </string-array>
+
+    <string-array name="cursos">
+        <item>PRIMERO</item>
+        <item>SEGUNDO</item>
+    </string-array>
+
+    <!-- Textos de la actividad de consultar fecha de faltas -->
+    <string name="title_activity_consultar_fecha_faltas">Consultar fecha de faltas</string>
+    <string name="texto_boton_consultar_fecha_faltas">Consultar fecha de faltas</string>
+    <string name="texto_boton_generar_informe_asistencia">Generar informe asistencia</string>
+    <string name="texto_tipo_falta">Tipo de falta:</string>
+    <string name="texto_fecha_falta">Fecha de la falta:</string>
+    <string name="texto_cantidad_faltas">Cantidad de retrasos, faltas y faltas justificadas:</string>
+    <string name="texto_email_enviado_ok">Email enviado</string>
+    <string name="texto_email_enviado_nook">Error enviando el email</string>
+    <string name="texto_enviar_asistencia">Enviar asistencia</string>
+    <string name="texto_pregunta_enviar_asistencia">¿Enviar informe de asistencia a?</string>
+    <string name="texto_cantidad_faltas_asistencia">Cantidad: </string>
+    <string name="texto_justificar_faltas_asistencia">Justificar falta</string>
+    <string name="texto_error_justificar_faltas_asistencia">Error justificando las faltas de asistencia</string>
+
+    <!-- Textos de la actividad agregar profesor -->
+    <string name="title_activity_agregar_profesor">Agregar profesor</string>
+    <string name="texto_datos_profesor">Datos del profesor</string>
+    <string name="texto_email">Email:</string>
+    <string name="texto_asignaturas_profesor">Asignaturas impartidas</string>
+    <string name="texto_tipo_profesor">Tipo de profesor:</string>
+
+    <string-array name="tipos_profesor">
+        <item>ADMINISTRADOR</item>
+        <item>PROFESOR</item>
+        <item>DIRECTOR</item>
+    </string-array>
+
+    <string name="texto_profesor_insertado_ok">Profesor insertado correctamente</string>
+    <string name="texto_profesor_insertado_nook">Error insertando el profesor</string>
+    <string name="texto_profesor_matriculado_ok">Profesor matriculado correctamente</string>
+    <string name="texto_profesor_matriculado_nook">Error matriculando el profesor</string>
+
+    <!-- Textos de la pantalla inicial -->
+    <string name="title_activity_consultar_profesores">Consultar profesores</string>
+    <string name="texto_asignaturas">Asignaturas impartidas:</string>
+
+    <!-- Textos de la actividad de mis datos profesor -->
+    <string name="title_activity_profesor_mis_datos">Mis datos de profesor</string>
+    <string name="texto_cambiar_contrasena">Cambiar contraseña</string>
+    <string name="texto_error_password_no_coinciden">Error, las contraseñas no coinciden</string>
+    <string name="texto_error_password_antiguo">Error, la contraseña antigua no es correcta</string>
+    <string name="texto_password_antiguo">Contraseña:</string>
+    <string name="texto_password_nuevo_1">Nueva contraseña:</string>
+    <string name="texto_password_nuevo_2">Confirmar nueva contraseña:</string>
+    <string name="texto_error_password">Error, la contraseña es incorrecta.</string>
+    <string name="texto_error_faltan_datos">Error, faltan datos.</string>
+    <string name="texto_password_cambiado_ok">Contraseña cambiada correctamente.</string>
+
+    <!-- Textos de la actividad de consultar profesor -->
+    <string name="texto_profesor_borrado_ok">Profesor eliminado correctamente.</string>
+    <string name="texto_profesor_borrado_error">Error elimiando el profesor.</string>
+    <string name="titulo_eliminar_profesor">Eliminar profesor</string>
+    <string name="texto_mensaje_eliminar_profesor">Se eliminará al profesor.</string>
+    <string name="texto_password_reseteado_ok">Contraseña reseteada correctamente.</string>
+    <string name="texto_password_reseteado_nook">Error reseteando la contraseña.</string>
+
+    <!-- Textos de la actividad de modificar profesor -->
+    <string name="title_activity_modificar_profesor">Modificar profesor</string>
+    <string name="texto_matricular_asignaturas">Matricular asignaturas</string>
+    <string name="texto_eliminar_asignatura">Quitar asignatura</string>
+    <string name="texto_asignatura_quitada_ok">Asignatura eliminada correctamente</string>
+    <string name="texto_asignatura_quitada_nook">Error eliminando la asignatura</string>
+    <string name="texto_profesor_modificado_ok">Profesor modificado correctamente</string>
+    <string name="texto_profesor_modificado_nook">Error modificando el profesor</string>
+
+    <!-- Textos de la actividad de insertar alumno -->
+    <string name="texto_alumno_insertado_ok">Alumno insertado correctamente.</string>
+    <string name="texto_alumno_insertado_nook">Error insertando el alumno.</string>
+    <string name="texto_alumno_matriculado_ok">Alumno matriculado correctamente.</string>
+    <string name="texto_alumno_matriculado_nook">Error matriculando el alumno.</string>
+
+    <!-- Textos de la actividad de modificar alumno -->
+    <string name="texto_matricular_alumno">Matricular</string>
+    <string name="texto_desmatricular_alumno">Eliminar matriculación</string>
+    <string name="texto_aviso_eliminar_matricula">Se eliminarán las asistencias y asignaturas matriculadas del alumno</string>
+    <string name="texto_alumno_desmatriculado_ok">Alumno desmatriculado correctamente</string>
+    <string name="texto_alumno_desmatriculado_nook">Error desmatriculando al alumno</string>
+    <string name="titulo_desmatricular_alumno">Desmatricular alumno</string>
+
+
+    <string name="texto_todas_asistencias_borrado_ok">Todas las asistencias del servidor han sido borradas correctamente</string>
+
+
+</resources>

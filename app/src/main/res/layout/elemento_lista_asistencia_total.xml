@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rectangle">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="2"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/texto_alumno"
+                    android:id="@+id/textView8"
+                    android:theme="@style/EstiloTexto2"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tNombreAlumnoATotal"
+                    android:theme="@style/EstiloTexto2"
+                    android:layout_weight="1" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="8"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:text="@string/texto_total_asistencias"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView13"
+                    android:theme="@style/EstiloTexto2" />
+
+                <TextView
+                    android:id="@+id/tAsiste"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="TextView"
+                    android:theme="@style/EstiloTexto2" />
+
+                <TextView
+                    android:text="@string/texto_total_retrasos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView134"
+                    android:theme="@style/EstiloTexto2" />
+
+                <TextView
+                    android:id="@+id/tRetraso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="TextView"
+                    android:theme="@style/EstiloTexto2" />
+
+                <TextView
+                    android:text="@string/texto_total_faltas"
+                    android:theme="@style/EstiloTexto2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView11" />
+
+                <TextView
+                    android:id="@+id/tFaltas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="TextView"
+                    android:theme="@style/EstiloTexto2" />
+
+                <TextView
+                    android:text="@string/texto_total_faltas_justificadas"
+                    android:theme="@style/EstiloTexto2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView7" />
+
+                <TextView
+                    android:id="@+id/tFaltasJustificadas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="TextView"
+                    android:theme="@style/EstiloTexto2" />
+
+                <TextView
+                    android:text="@string/texto_total_horas_asignatura"
+                    android:theme="@style/EstiloTexto2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView17" />
+
+                <TextView
+                    android:id="@+id/tTotalHoras"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="TextView"
+                    android:theme="@style/EstiloTexto2" />
+
+                <TextView
+                    android:text="@string/texto_porcentaje_asistido"
+                    android:theme="@style/EstiloTexto2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView15" />
+
+                <TextView
+                    android:id="@+id/tPorcentajeAsistido"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="TextView"
+                    android:theme="@style/EstiloTexto2" />
+
+                <TextView
+                    android:text="@string/texto_nota_total_asistencia"
+                    android:theme="@style/EstiloTexto2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView16" />
+
+                <TextView
+                    android:id="@+id/tTotalNotaAsistencia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="TextView"
+                    android:theme="@style/EstiloTexto2" />
+            </GridLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/titulo_alumnos">
+        <menu>
+            <item
+                android:id="@+id/nav_agregaralumno"
+                android:icon="@drawable/account_plus"
+                android:title="@string/menu_agregar_alumno" />
+            <item
+                android:id="@+id/nav_consultareliminaralumnos"
+                android:icon="@drawable/account_multiple"
+                android:title="@string/menu_consultar_eliminar_alumnos" />
+
+            <item
+                android:id="@+id/nav_consultaralumnos"
+                android:icon="@drawable/account_multiple"
+                android:title="@string/menu_consultar_alumnos" />
+        </menu>
+    </item>
+
+    <item
+        android:title="@string/titulo_profesores">
+        <menu>
+            <item
+                android:id="@+id/nav_agregarprofesor"
+                android:icon="@drawable/account_plus"
+                android:title="@string/menu_agregar_profesor" />
+            <item
+                android:id="@+id/nav_consultareliminarprofesores"
+                android:icon="@drawable/account_multiple"
+                android:title="@string/menu_consultar_eliminar_profesores" />
+            <item
+                android:id="@+id/nav_misdatosprofesor"
+                android:icon="@drawable/account_card_details"
+                android:title="@string/menu_mis_datos_profesor" />
+        </menu>
+    </item>
+
+    <item android:title="@string/titulo_asistencia">
+        <menu>
+            <item
+                android:id="@+id/nav_anotarasistencia"
+                android:icon="@drawable/calendar_plus"
+                android:title="@string/menu_anotar_asistencia" />
+            <item
+                android:id="@+id/nav_consultarasistencia"
+                android:icon="@drawable/consultar_asistencia"
+                android:title="@string/menu_consultar_asistencia" />
+            <item
+                android:id="@+id/nav_consultarfaltas"
+                android:icon="@drawable/alarm_light"
+                android:title="@string/menu_consultar_faltas" />
+            <item
+                android:id="@+id/nav_modificarasistencia"
+                android:icon="@drawable/editar"
+                android:title="@string/menu_modificar_asistencia" />
+            <item
+                android:id="@+id/nav_borrarasistencias"
+                android:icon="@drawable/delete_empty"
+                android:title="@string/menu_borrar_todas_asistencias" />
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_configuracion">
+        <menu>
+            <item
+                android:id="@+id/nav_configuracion"
+                android:icon="@drawable/settings"
+                android:title="@string/menu_configuracion" />
+        </menu>
+    </item>
+
+    <item android:title="@string/titulo_informacion">
+        <menu>
+            <item
+                android:id="@+id/nav_sobreapp"
+                android:icon="@drawable/alert_circle"
+                android:title="@string/menu_sobre" />
+        </menu>
+    </item>
+
+</menu>

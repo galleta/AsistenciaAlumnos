@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="EstiloTexto" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="EstiloTexto2" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TemaBoton" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/blanco</item>
+    </style>
+
+    <style name="EstiloTextoUsuarioConectado" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="EstiloTexto2FAIL" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">@color/fail</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="EstiloTexto2OK" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">@color/ok</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="EstiloTexto3" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="EstiloTextoOK" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">@color/ok</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="EstiloTextoFAIL" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">@color/fail</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="EstiloTextoMes" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Widget.CalendarView.Custom" parent="@android:style/Widget.CalendarView">
+        <item name="android:focusedMonthDateColor">@color/colorPrimaryDark</item>
+        <item name="android:weekDayTextAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="android:dateTextAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:selectedWeekBackgroundColor">@android:color/transparent</item>
+    </style>
+
+    <style name="BlueTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="BlueTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

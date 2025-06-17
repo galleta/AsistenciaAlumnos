@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="asistenciaalumnos.asistenciaalumnos">
+
+    <!-- Permisos de la aplicación -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".VistaLogin"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VistaAgregarAlumno"
+            android:label="@string/title_activity_agregar_alumno"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VistaConsultarAlumnos"
+            android:label="@string/title_activity_consultar_alumnos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VistaAnotarAsistencia"
+            android:label="@string/title_activity_anotar_asistencia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VistaConsultarAsistencia"
+            android:label="@string/title_activity_consultar_asistencia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VistaModificarDatosAlumno"
+            android:label="@string/title_activity_modificar_alumno"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VistaModificarDatosAsistencia"
+            android:label="@string/title_activity_modificar_asistencia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VistaAcercaDeApp"
+            android:label="@string/title_activity_acerca_de"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VistaPantallaPrincipal"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VistaConfiguracion"
+            android:label="@string/title_activity_preferencias" />
+        <activity
+            android:name=".VistaConsultarFechaFaltas"
+            android:label="@string/title_activity_consultar_fecha_faltas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VistaAgregarProfesor"
+            android:label="@string/title_activity_agregar_profesor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VistaConsultarProfesores"
+            android:label="@string/title_activity_consultar_profesores"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VistaMisDatosProfesor"
+            android:label="@string/title_activity_profesor_mis_datos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VistaModificarDatosProfesor"
+            android:label="@string/title_activity_modificar_profesor"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

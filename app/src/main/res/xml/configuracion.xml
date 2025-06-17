@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/texto_categoria_pesos">
+
+        <configuracion.NumberPickerPreference
+            android:key="nota_asistencia"
+            android:title="@string/texto_peso_nota"
+            android:summary="@string/texto_resumen_peso_nota"
+            android:defaultValue="1" />
+
+        <configuracion.DoublePickerPreference
+            android:key="peso_asistencia"
+            android:title="@string/texto_peso_asistencia"
+            android:summary="@string/texto_resumen_peso_asistencia"
+            android:defaultValue="4" />
+
+        <configuracion.DoublePickerPreference
+            android:key="peso_falta"
+            android:title="@string/texto_peso_falta"
+            android:summary="@string/texto_resumen_peso_falta"
+            android:defaultValue="0" />
+
+        <configuracion.DoublePickerPreference
+            android:key="peso_falta_justificada"
+            android:title="@string/texto_peso_falta_justificada"
+            android:summary="@string/texto_resumen_peso_falta_justificada"
+            android:defaultValue="4" />
+
+        <configuracion.DoublePickerPreference
+            android:key="peso_retraso"
+            android:title="@string/texto_peso_retraso"
+            android:summary="@string/texto_resumen_peso_retraso"
+            android:defaultValue="2" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
