@@ -39,7 +39,7 @@ Creé esta aplicación mientras trabajaba como docente en un centro privado de F
 
 La parte correspondiente al back-end de esta aplicación, desarrollada en PHP, se encuentra disponible en el siguiente repositorio:
 
-👉 [Repositorio parte back-end PHP](https://github.com/usuario/repositorio-relacionado)
+👉 [Repositorio parte back-end PHP](https://github.com/galleta/Parte-backend-APPsistencia)
 
 ## Estado del proyecto
 
