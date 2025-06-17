@@ -2,6 +2,7 @@
 
 ![Java](https://img.shields.io/badge/Lenguaje-Java-blue?logo=java)
 ![XML](https://img.shields.io/badge/Interfaz-XML-orange?logo=xml)
+![Version](https://img.shields.io/badge/version-4.10-brightgreen)
 
 Este repositorio contiene una aplicación móvil desarrollada en *Android Studio*, destinada a la gestión de la asistencia del alumnado en ciclos formativos de formación profesional.
 
