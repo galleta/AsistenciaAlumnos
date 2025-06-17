@@ -36,6 +36,12 @@ Creé esta aplicación mientras trabajaba como docente en un centro privado de F
 
 </div>
 
+## Repositorio de la APP APPsistencia versión iOS
+
+La parte correspondiente de la APP APPsistencia v2.0 (Versión iOS), desarrollada en *XCode*, se encuentra disponible en el siguiente repositorio:
+
+👉 [Repositorio APPsistencia v2.0 (Versión ios)](https://github.com/galleta/AsistenciaAlumnos-iOS)
+
 ## Repositorio de la parte back-end de la APP
 
 La parte correspondiente al back-end de esta aplicación, desarrollada en PHP, se encuentra disponible en el siguiente repositorio:
